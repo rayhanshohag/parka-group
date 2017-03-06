@@ -2,16 +2,16 @@
 Assignment of Parka Group
 
 Answer to the Question no 1 given below:<br>
-https://github.com/rayhanshohag/parka-group/blob/master/sanitize_comments.php
+https://github.com/rayhanshohag/parka-group/blob/master/1.php
 
 Answer to the Question no 2 given below:<br>
-https://github.com/rayhanshohag/parka-group/blob/master/mysql_database_queries.php
+https://github.com/rayhanshohag/parka-group/blob/master/2.php
 
 Answer to the Question no 3 given below:<br>
-https://github.com/rayhanshohag/parka-group/blob/master/array_depth.php
+https://github.com/rayhanshohag/parka-group/blob/master/3.php
 
 Answer to the Question no 4 given below:<br>
-https://github.com/rayhanshohag/parka-group/blob/master/class_object_message_mail.php
+https://github.com/rayhanshohag/parka-group/blob/master/4.php
 
 
 ----
