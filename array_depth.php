@@ -1,7 +1,7 @@
 Write a function that calculates a passed array’s depth.
 -        Array is passed to the function as parameter.
 -        Calculate maximum level of nested arrays.
--        Extra point if you can check array structure for links making infinite cycle..
+-        Extra point if you can check array structure for links making infinite cycle.
 
 
 <?php
