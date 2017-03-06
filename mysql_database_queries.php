@@ -13,14 +13,19 @@ Write sql/php:
 
 Answer is below:
 
-categories :
+Categories Table:
 id       name       parent_id 
  
-Items :
-id	name	Price	Type     category_id 
+Items Table :
+id    name	   Price	   Type     category_id 
 
+To get all items from category 'X':
 
 'SELECT * FROM products WHERE category_id = x'
+
+
+
+To get all items from category 'X' including all sub-categories:
 
 "SELECT * FROM products WHERE category_id = 'X'
 OR category_id IN (
