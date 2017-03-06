@@ -14,3 +14,5 @@ function clean_data( $input )
 $filtered_comment = clean_data( $_POST['comment'] );
 
 ?>
+
+<!----->
