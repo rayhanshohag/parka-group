@@ -14,7 +14,7 @@ Write sql/php:
 Answer is below:
 
 Categories Table:
-id       name       parent_id 
+category_id       name       parent_id 
  
 Items Table :
 id    name	   Price	   Type     category_id 
@@ -29,5 +29,5 @@ To get all items from category 'X' including all sub-categories:
 "SELECT * FROM items WHERE category_id = 'X'
 OR category_id IN (
   SELECT parent_id FROM categories 
-    WHERE id = 'X'
+    WHERE category_id = 'X'
 )"
