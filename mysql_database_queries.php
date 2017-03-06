@@ -24,7 +24,6 @@ To get all items from category 'X':
 'SELECT * FROM products WHERE category_id = x'
 
 
-
 To get all items from category 'X' including all sub-categories:
 
 "SELECT * FROM products WHERE category_id = 'X'
