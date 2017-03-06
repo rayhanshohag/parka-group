@@ -27,7 +27,7 @@ To get all items from category 'X':
 To get all items from category 'X' including all sub-categories:
 
 "SELECT * FROM items WHERE category_id = 'X'
-OR category_id IN (
+AND category_id IN (
   SELECT parent_id FROM categories 
     WHERE category_id = 'X'
 )"
