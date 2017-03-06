@@ -21,12 +21,12 @@ id    name	   Price	   Type     category_id
 
 To get all items from category 'X':
 
-'SELECT * FROM products WHERE category_id = x'
+'SELECT * FROM items WHERE category_id = x'
 
 
 To get all items from category 'X' including all sub-categories:
 
-"SELECT * FROM products WHERE category_id = 'X'
+"SELECT * FROM items WHERE category_id = 'X'
 OR category_id IN (
   SELECT parent_id FROM categories 
     WHERE id = 'X'
