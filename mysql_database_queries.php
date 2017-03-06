@@ -11,7 +11,7 @@ Write sql/php:
 -        To get all items from category 'X'
 -        To get all items from category 'X' including all sub-categories
 
-Answer is below:
+Answer is below::
 
 Categories Table:
 category_id       name       parent_id 
