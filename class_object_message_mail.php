@@ -74,3 +74,4 @@ if(mail($to, $subject, $message, $headers)){
 }
 send_message();
 ?>
+<--  -->
