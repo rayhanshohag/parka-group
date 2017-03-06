@@ -72,5 +72,5 @@ if(mail($to, $subject, $message, $headers)){
     echo 'Unable to send email. Please try again.';
 }
 }
-$send_msg = send_message();
+send_message();
 ?>
