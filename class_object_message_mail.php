@@ -1,10 +1,10 @@
-Design a php class or classes.
+<!--Design a php class or classes.
 Write a class (or classes) that demonstrates your knowledge of OOP:
 -        The php class is used to send website notifications over different media (mail, SMS, IRC).
 -        Create a function to send a message (actual function may be empty)
 
 
-Here is an example which defines a class of Books type:
+Here is an example which defines a class of Books type:-->
 <?php
    class Books {
       /* Member variables */
@@ -43,6 +43,9 @@ $maths->getPrice();
 
 
 <?php
+
+function send_message()
+{
 $to = 'maryjane@email.com';
 $subject = 'Marriage Proposal';
 $from = 'peterparker@email.com';
@@ -68,4 +71,6 @@ if(mail($to, $subject, $message, $headers)){
 } else{
     echo 'Unable to send email. Please try again.';
 }
+}
+$send_msg = send_message();
 ?>
